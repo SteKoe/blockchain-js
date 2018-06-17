@@ -1,0 +1,33 @@
+{
+  "name": "blockchain-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.0.1",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^23.1.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node --experimental-modules main.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "verbose": true,
+    "transform": {
+      "^.+\\.m?jsx?$": "babel-jest"
+    },
+    "moduleFileExtensions": ["js", "mjs"],
+    "moduleDirectories": [
+      "node_modules",
+      "lib"
+    ]
+  }
+}
